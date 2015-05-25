@@ -1,0 +1,2 @@
+Guzzle Silex Service Provider
+=============================

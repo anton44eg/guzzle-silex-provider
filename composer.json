@@ -1,0 +1,29 @@
+{
+  "name": "anton44eg/guzzle-silex-provider",
+  "type": "silex-provider",
+  "description": "Guzzle Silex provider",
+  "license": "MIT",
+  "keywords": ["Guzzle", "Silex"],
+  "authors": [
+    {
+      "name": "Anton Simernia",
+      "email": "anton.simernya@gmail.com"
+    }
+  ],
+  "require": {
+      "php": ">=5.3.2",
+      "guzzlehttp/guzzle": ">=4.0.0",
+      "silex/silex": ">=1.0"
+  },
+  "require-dev": {
+      "phpunit/phpunit": ">=4.0.0"
+  },
+  "autoload": {
+      "psr-4": {
+          "anton44eg\\": "src/"
+      }
+  },
+  "autoload-dev": {
+    "psr-4": { "anton44eg\\Tests\\": "tests/" }
+  }
+}
